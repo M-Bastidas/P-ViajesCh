@@ -52,7 +52,7 @@
 }
 
 .carousel-item{
-    height: 65vh;
+    height: 85vh;
     min-height:350px;
     background: no-repeat;   /*OJO*/
     background-size:cover;
@@ -67,11 +67,11 @@
 
 .card-body{
     background-color: #1798c1;
-    color: #ffffff;
 }
 
-.card-title{
+.card-body h5, p{
     color: #ffffff;
+    text-align: left;
 }
 
 .card .card1{
