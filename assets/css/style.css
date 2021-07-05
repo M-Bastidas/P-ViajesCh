@@ -7,18 +7,19 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.imgen-viajes{
-    max-width: 2.5%!important;
+.imagen-viajes{
+    max-width: 2.5%;
+    margin-left: 35px;
 }
 
-.imagen-viajes .texto-viajes{  /*OJO*/
+.imagen-viajes, .texto-viajes{  /*OJO*/
     display: block;
 }
 
 .texto-viajes p{
     margin-left: 10px;
-    margin-bottom: -1px;  /*OJO*/
-    color: white;
+    margin-bottom: 1px;  /*OJO*/
+    color: #ffffff;
 }
 
 .navbar-nav{
@@ -64,8 +65,17 @@
     font-family: 'Source Serif Pro', serif;
 }
 
+.card-body{
+    background-color: #1798c1;
+    color: #ffffff;
+}
+
+.card-title{
+    color: #ffffff;
+}
+
 .card .card1{
-    background-color: black!important;
+    background-color: black;
 }
 
 .card{
@@ -84,6 +94,7 @@
 }
 
 .fa-plane, .fa-car, .fa-anchor{
+    /* height: 35px; */
     color: white;
     background-color: #1798c1;
     padding-left:140px;
@@ -92,26 +103,6 @@
     margin: 0 auto;
     margin-right: 10px
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .card{
     margin-right: 10px;
@@ -133,6 +124,7 @@ h1{
 }
 
 hr{
+    height: 3px;
     color:#1798c1;
     background-color: #1798c1;
     margin-left: 35px;
